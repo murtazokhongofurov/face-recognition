@@ -1,0 +1,105 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-image: url("../images/img_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    position: relative;
+}
+
+.sidebar-header {
+    padding: 10px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none; /* Remove underline from links */
+}
+
+.container {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Button styles */
+.button {
+    padding: 15px 20px; /* Adjust padding as needed */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: space-around; /* Add space between icon and text */
+}
+
+.button-primary {
+    background-color: #007bff;
+}
+
+.button-secondary {
+    background-color: #6c757d;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Icon styles */
+.button i {
+    font-size: 20px; /* Adjust icon size as needed */
+    margin-right: 10px; /* Add space between icon and text */
+}
+
+/* Close button styles */
+.sidebar .close-navbar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 23px;
+    cursor: pointer;
+    color: #fff;
+    transition: .3s all ease;
+}
+
+.sidebar .close-navbar:hover {
+    color: #c0baba;
+}
+
+
+.inputNameLink{
+    text-align: center;
+    color: #333;
+    background-color: aqua;
+    position: relative;
+    padding-left: 40px;
+    padding-top: 50px;
+}

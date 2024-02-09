@@ -1,0 +1,23 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.col-lg-8 {
+    width: 66.66%;
+    float: left;
+}
+
+.offset-lg-2 {
+    margin-left: 16.666%;
+}
+
+#video-container {
+    margin-top: 20px;
+}
+
+#video-stream {
+    width: 100%;
+    height: auto;
+}

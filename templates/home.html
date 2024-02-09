@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../static/home.css"> <!-- Include external CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <!-- Button to close sidebar -->
+        </div>
+        <ul class="menu">
+            <li><a href="http://localhost:8080/input_name" class="button button-primary" id="trainCameraButton"><i class="fa-solid fa-camera"></i> <span class="button_content">train camera</span></a></li>
+            <li><a href="http://localhost:8080/train" class="button button-secondary" id="trainButton"><i class="fa-sharp fa-solid fa-database"></i><span class="button_content">training dataset</span></a></li>
+            <li><a href="http://localhost:8080/recognize" class="button button-primary" id="recognizeButton"><i class="fa-solid fa-camera"></i> <span class="button_content">recognizer</span></a></li>
+        </ul>
+        <div id="closeBtn" class="fas fa-bars close-navbar"></div>
+    </div>
+    <div class="content">
+
+    </div>
+    <!-- Include any necessary scripts here -->
+    <script src="../static/home.js"></script> <!-- Include external JavaScript file -->
+</body>
+</html>
